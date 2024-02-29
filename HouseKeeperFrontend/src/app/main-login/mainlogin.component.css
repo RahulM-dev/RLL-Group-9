@@ -1,0 +1,80 @@
+body {
+  border: 2px solid #b33939;
+  background-color: #a52222;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  padding-left: 5%;
+  padding-top: 8%;
+}
+
+.title2 {
+  padding-left: 6%;
+  padding-top: 8%;
+}
+
+.title3 {
+  padding-left: 12%;
+  padding-top: 1%;
+}
+
+.button-container {
+  display: inline-block; /* Change display to inline-block */
+  margin: 0 auto; /* Add this line to center the container horizontally */
+  padding-top: 15px;
+}
+
+.button-container button {
+  display: inline-block;
+  margin: 18px;
+  margin-left: 100px;
+}
+
+.main1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.main2 {
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+}
+.main3 {
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.adminlogin {
+  background-color: black;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 15px 35px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.adminlogin:hover {
+  background-color: black;
+}
+
+.houseKeeper-container {
+  background-image: url(src/assets/images/MainLoginBackground.jpg);
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: block;
+  height: 100%;
+  background-position: right;
+  text-align: center; /* Add this line to center the content horizontally */
+}
+
+
+#text-left {
+  text-align: left !important;
+}

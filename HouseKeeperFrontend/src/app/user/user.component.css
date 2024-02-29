@@ -1,0 +1,114 @@
+/* Style for the side navbar */
+
+ .sidenav {
+    height: 100%;
+    width: 15.8%;
+    position: fixed;
+    z-index: 1;
+    background-color: #06adb6;
+    overflow-x: hidden;
+    padding-top: 12px;
+}
+
+/* Style for the links inside the side navbar */
+ .sidenav button {
+    padding: 20px 0px 20px 0px;
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    background-color: white;
+    box-shadow: 3px 3px 10px black;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    margin: 0px 0px 15px 0px;
+} 
+
+/* Style for the active menu item */
+ .sidenav button.active {
+    background-color: rgba(0, 0, 0, 0.842);
+    color: #ffffff;
+} 
+/* Style for the hover effect */
+ .sidenav button:hover {
+    background-color: rgba(0, 0, 0, 0.842);
+    color: #ffffff;
+}
+
+.dashboardImage{
+    width: 275%;
+    height: 300px;
+    object-fit: fill;
+  
+}
+.cleanRequestDiv{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    border-radius: 8px;
+    background-color:  rgb(206, 226, 27);
+    color: black;
+    width: 241px;
+    height: 60px;
+    margin-bottom: 20%;
+    padding: 5px 0px 0px 0px;
+    box-shadow: 3px 3px 10px black;
+    
+}
+.complaintsDiv{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    background-color: rgb(206, 226, 27);
+    color: black;
+    width: 241px;
+    height: 60px;
+    padding: 5px 0px 0px 0px;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.rollno{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+     margin-top: 5%;
+}
+
+.rollno2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+     margin-top: 5%;
+}
+
+.nav-text-margin{
+    margin-left: 5%;
+}
+.icon-margin{
+    margin-left: 5%;
+}
+.feedback-count-user{
+    background: none;
+     border: none;
+     cursor: not-allowed;
+     pointer-events: none;
+}
+.sidenav button.logout:hover {
+    background-color: #fd5c63;
+    color: #ffffff;
+}   
+
+.bi-people,.bi-box-arrow-right{
+    padding-left: 10px;
+}
+
